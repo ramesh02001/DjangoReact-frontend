@@ -1,0 +1,142 @@
+/* General Container Styles */
+.student-dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for the Container */
+.student-dashboard-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Title */
+.student-dashboard-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Paragraph Styling */
+.student-dashboard-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.student-dashboard-container p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* List Styling */
+.student-dashboard-container ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.student-dashboard-container ul li {
+    font-size: 16px;
+    color: #555;
+    background-color: #f1f4f8;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.student-dashboard-container ul li:hover {
+    background-color: #e6ecf5;
+}
+
+/* Button Styles */
+.student-dashboard-container button {
+    width: 220px;
+    padding: 12px 15px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.student-dashboard-container button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    box-shadow: 0 4px 15px rgba(0, 91, 255, 0.3);
+}
+
+/* Messages */
+.error-message {
+    color: #d9534f;
+    background-color: #fbe3e3;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c2c2;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success-message {
+    color: #4cae4c;
+    background-color: #e9f6ea;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #d6e9c6;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Student Info Section */
+.student-dashboard-container .student-info {
+    margin-bottom: 25px;
+    background-color: #f8faff;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #007bff;
+}
+
+.student-dashboard-container .student-info p {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .student-dashboard-container {
+        padding: 20px;
+    }
+
+    .student-dashboard-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .student-dashboard-container button {
+        width: 180px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}

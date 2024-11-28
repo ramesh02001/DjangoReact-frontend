@@ -1,0 +1,59 @@
+.faculty-dashboard-container {
+    text-align: center; /* Center-align the entire dashboard content */
+    margin: 0 auto;
+    max-width: 800px; /* Set max-width for better alignment */
+  }
+  
+  .student-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    text-align: center; /* Center-align the card content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circular frame */
+    margin-bottom: 15px;
+  }
+  
+  .placeholder-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular placeholder */
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .create-student-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-student-button:hover {
+    background-color: #0056b3;
+  }
+  

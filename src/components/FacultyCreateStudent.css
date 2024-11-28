@@ -1,0 +1,60 @@
+.faculty-create-student-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faculty-create-student-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faculty-create-student-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .faculty-create-student-container input,
+  .faculty-create-student-container select,
+  .faculty-create-student-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .faculty-create-student-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .faculty-create-student-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    background-color: #f9d6d5;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+.circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image scales properly */
+    border: 2px solid #ddd; /* Optional: Adds a border */
+    margin-top: 20px;
+  }
+  
